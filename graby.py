@@ -92,6 +92,9 @@ if __name__ == "__main__":
 				print RED + "[!] No banner received" + ENDC
 			s.close
 		o.close()
+	except socket.error:
+		print RED + "[!] Port seems to be closed" + ENDC
+		o.write("[!] Port seems to be closed\n\n")
 	except:
 		print RED + "[!] Something wrong happened dude ... =(" +ENDC
 		raise
