@@ -14,8 +14,7 @@ either under *NIX or Windows platforms.
 * Python 2.7.x (https://www.python.org)
 Programmed and tested on Python 2.7.9
 
-* External python packages:
-- NONE
+* External python packages: NONE
 
 [+] Contact [+]
 ---------------
